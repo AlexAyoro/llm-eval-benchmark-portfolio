@@ -1,0 +1,11 @@
+[
+  {
+    "prompt": "Explain the difference between precision and recall.",
+    "reasoning_steps": [
+      "Step 1: Define precision as true positives divided by total positive predictions.",
+      "Step 2: Define recall as true positives divided by total actual positives."
+    ],
+    "model_answer": "Precision measures accuracy of positive predictions, recall measures coverage of actual positives.",
+    "expected_answer": "Precision measures accuracy of positive predictions, recall measures coverage of actual positives."
+  }
+]
