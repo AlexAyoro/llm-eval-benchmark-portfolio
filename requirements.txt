@@ -1,0 +1,30 @@
+﻿# LLM Evaluation & Benchmark Portfolio
+
+[![CI Pipeline](https://github.com/alex-ayoro/llm-eval-benchmark-portfolio/actions/workflows/ci.yml/badge.svg)](https://github.com/alex-ayoro/llm-eval-benchmark-portfolio/actions)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Overview
+A production-ready framework for Large Language Model (LLM) alignment, Chain-of-Thought (CoT) evaluation, bias screening, and automated benchmark scoring.
+
+## Core Features
+- **Chain-of-Thought Rubric Scoring:** Standardized evaluation of multi-step logical reasoning across complex prompts.
+- **Automated Bias & Policy Screening:** Heuristic and regex pipeline flagging policy-inconsistent model outputs.
+- **Side-by-Side Model Ranking:** Pairwise preference evaluation utility for model comparison.
+
+## Quickstart
+```bash
+# Clone repository
+git clone [https://github.com/alex-ayoro/llm-eval-benchmark-portfolio.git](https://github.com/alex-ayoro/llm-eval-benchmark-portfolio.git)
+cd llm-eval-benchmark-portfolio
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run unit tests
+pytest
+@'
+pytest>=7.4.0
+black>=23.7.0
+flake8>=6.1.0
+pydantic>=2.0.0
